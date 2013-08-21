@@ -11,5 +11,5 @@ ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local
 ADD . /src
 
 EXPOSE 8000:8000
-ENV PORT=8000
+ENV PORT 8000
 CMD ["node", "index.js"]
